@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPT-Chatbot", "GPT-Chatbot\GPT-Chatbot.csproj", "{3C0441F0-BDD1-49C4-B567-C533E52AF31C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C0441F0-BDD1-49C4-B567-C533E52AF31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0441F0-BDD1-49C4-B567-C533E52AF31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0441F0-BDD1-49C4-B567-C533E52AF31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0441F0-BDD1-49C4-B567-C533E52AF31C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D03AF00-6FC0-4E1B-B294-DBB7DB5EB655}
+	EndGlobalSection
+EndGlobal
