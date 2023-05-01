@@ -2,7 +2,7 @@
 using Spectre.Console;
 
 //Use your own OpenAI API key: https://platform.openai.com/account/api-keys
-const string key = "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";
+const string key = "your key";
 const string url = "https://api.openai.com/v1/chat/completions";
 
 var messages = new List<dynamic>
@@ -26,7 +26,7 @@ while (true)
         model = "gpt-3.5-turbo",
         max_tokens = 300,
     };
-    //Request and Response
+    //Request and response
     var httpClient = new HttpClient();
     httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {key}");
     var requestJson = JsonConvert.SerializeObject(request);
@@ -39,7 +39,7 @@ while (true)
         error = new { message = string.Empty }
     });
 
-    if (!string.IsNullOrEmpty(responseObject?.error?.message)) // check for errors
+    if (!string.IsNullOrEmpty(responseObject?.error?.message)) 
     {
         AnsiConsole.MarkupLine($"[red]{Markup.Escape(responseObject.error.message)}[/]");
     }
